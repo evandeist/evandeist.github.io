@@ -4,3 +4,9 @@
 
 layout: page
 ---
+
+This is the home page
+
+There is nothing much to see yet
+
+Please stay tuned!
