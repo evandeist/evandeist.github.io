@@ -1,0 +1,38 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-multiline">
+
+      <!-- Repeat the following card code for each page -->
+
+      {% for proj in site.projects %}
+
+      <div class="column is-one-third-desktop is-half-tablet">
+        <a href="{{ proj.permalink }}">
+          <div class="card is-bg-zoom is-bg-cover is-cursor-pointer transform is-duration-300 hover-translate-y" style="background-image: url('{{proj.thumbnail}}');">
+            <div class="card-content pb-5 is-duration-300 pt-12">
+              <div class="content">
+
+
+                <h3 class="text-motion has-text-white-bis transform is-duration-300">{{ proj.title }}</h3>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+
+      <!-- End of card code -->
+      
+      <!-- Todo: different style for mobile version -->
+      <!-- Todo: Make perfectly square (don't use padding?) -->
+
+    </div>
+  </div>
+</section>

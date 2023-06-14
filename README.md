@@ -1,2 +1,2 @@
 # evndeist.github.io
-This is a test
+This website is unfinished. It is deployed for testing on mobile.

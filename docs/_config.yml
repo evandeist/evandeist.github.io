@@ -34,10 +34,14 @@ fixed_navbar: top
 # With GitHub Pages Gem
 remote_theme: chrisrhymes/bulma-clean-theme
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
