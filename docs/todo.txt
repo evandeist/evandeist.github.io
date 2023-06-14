@@ -1,0 +1,3 @@
+- space out navbar options
+- larger menu font
+- different font style
