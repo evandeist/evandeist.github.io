@@ -29,7 +29,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  evndeist
 footer_menu: footer
 fixed_navbar: top
-header_menu: header
+
 # Build settings
 # With GitHub Pages Gem
 remote_theme: chrisrhymes/bulma-clean-theme
