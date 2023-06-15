@@ -8,6 +8,8 @@ hidden: true
 # Todo: implement a goal
 # Todo: good video
 # Todo: github repo
+# Todo: gif thumb
+
 ---
 
 A digital marble labyrinth on a 64x64 LED board! 

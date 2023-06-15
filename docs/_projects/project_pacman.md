@@ -5,9 +5,15 @@ permalink: /pacman/
 thumbnail: /assets/images/hero/pacman_hero.png
 hero_image: /assets/images/hero/pacman_hero.png
 hidden: false
+
+tags: ["godot","gdscript"]
+
+# todo: link research materials
+# todo: gif thumb
+
 ---
 
-<iframe frameborder="0" src="https://itch.io/embed-upload/8115897?color=333333" allowfullscreen="" width="1280" height="740"><a href="https://evandeist.itch.io/pac-man-remake">Play Pac Man Remake on itch.io</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed-upload/8116050?color=333333" allowfullscreen="" width="1280" height="740"><a href="https://evandeist.itch.io/pac-man-remake">Play Pac Man Remake on itch.io</a></iframe>
 
 The arcade classic, faithfully recreated from the ground-up!
 

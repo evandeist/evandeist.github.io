@@ -17,6 +17,15 @@ permalink: /projects/
           {% continue %}
         {% endif %}
 
+        {% if proj.tags %}
+          <h2>
+            {% for tag in proj.tags %}
+
+            {% endfor %}
+          </h2>
+
+        {% endif %}
+
       <div class="column is-one-third-desktop is-half-tablet">
         <a href="{{ proj.permalink }}">
           <div class="card is-bg-zoom is-bg-cover is-cursor-pointer transform is-duration-300 hover-translate-y" style="background-image: url('{{proj.thumbnail}}');">

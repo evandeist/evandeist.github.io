@@ -9,6 +9,7 @@ hidden: true
 # Todo: great photos
 # Todo: good video
 # Todo: github repo
+# Todo: gif thumb
 
 ---
 

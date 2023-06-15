@@ -4,6 +4,12 @@ title: "Light Snakes"
 permalink: /lightsnakes/
 thumbnail: /assets/images/thumbnails/black.jpg
 hidden: true
+
+# todo: get better photo
+# todo: get better video
+# todo: get smilebasic link
+# todo: link serpentron
+# todo: gif thumb
 ---
 
 A competitive, 4-player snake game on Nintendo Switch!

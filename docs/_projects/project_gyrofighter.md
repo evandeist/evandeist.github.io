@@ -5,6 +5,12 @@ permalink: /gyrofighter/
 thumbnail: /assets/images/thumbnails/gyro_2x_thumb.png
 hero_image: /assets/images/hero/gyro_temp_hero.png
 hidden: true
+
+# todo: get video
+# todo: github repo
+# todo: link other creator
+# todo: gif thumb
+
 ---
 
 An Asteroids-like game, with a twist! This mobile game requires the player to physically tilt their device to maneuver the ship.
