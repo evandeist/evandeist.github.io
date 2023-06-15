@@ -10,8 +10,12 @@ permalink: /projects/
     <div class="columns is-multiline">
 
       <!-- Repeat the following card code for each page -->
+      <!-- todo: custom order using rankings (or ordered data file?) -->
 
       {% for proj in site.projects %}
+        {% if proj.hidden == true %}
+          {% continue %}
+        {% endif %}
 
       <div class="column is-one-third-desktop is-half-tablet">
         <a href="{{ proj.permalink }}">

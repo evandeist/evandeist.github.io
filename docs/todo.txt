@@ -3,6 +3,8 @@
 - different font style
 - Figure out how to change theme colors on the fly
 
+I NEED BETTER THUMBNAIL PICTURES!
+
 - projects:
 - pac-man
     - embed itchio version?
