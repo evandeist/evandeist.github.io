@@ -1,9 +1,7 @@
 ---
 ---
-body{ // here so parser doesn't complain
-
-}
-
+// todo: make all text bigger
+// todo: find better font
 
   .pt-24 {
     padding-top: 24rem !important;
@@ -37,11 +35,11 @@ body{ // here so parser doesn't complain
   }
   
   .is-bg-cover .card-content {
-    background-color: rgba(0, 0, 0, 0.02);
+    background-color: rgba(0, 0, 0, 0.4);
   }
   
   .is-bg-cover:hover .card-content {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.02);
   }
   
   .title-transform-y {
