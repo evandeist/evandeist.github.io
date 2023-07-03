@@ -8,6 +8,7 @@ hidden: true
 
 # todo: github repo
 # todo: get better screenshots
+# todo: link source
 
 ---
 

@@ -3,6 +3,11 @@
 // todo: make all text bigger
 // todo: find better font
 
+  .is-centered{
+    text-align: center;
+    align-self: center;
+  }
+
   .pt-24 {
     padding-top: 24rem !important;
   }
@@ -81,8 +86,8 @@
       transition: all 0.3s ease-in-out;
   }
 
-$primary: #3c3966;
-$background: #000000;
+$primary: #072f9b;
+$background: #13123d;
 
 // Import Main CSS file from theme
 @import "main";

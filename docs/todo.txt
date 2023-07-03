@@ -2,25 +2,6 @@
 - larger menu font
 - different font style
 - Figure out how to change theme colors on the fly
+- paralax scrolling??
+- 
 
-I NEED BETTER THUMBNAIL PICTURES!
-
-- projects:
-- pac-man
-    - embed itchio version?
-    - link to resources
-- gyrofighter
-    - ask for gitlab code
-    - show video?
-    - app store link?
-- robot onslaught
-- othello AI
-- LED marble run
-- LED Waterfall
-- Dancing void
-- floating forms
-- raytracing studies
-- FPED Unity simulation
-    - embed?
-- Laser Pen
-- railfighters (WIP)

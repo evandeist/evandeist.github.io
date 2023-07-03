@@ -2,3 +2,8 @@
 layout: page
 ---
 {{ content }}
+
+{% if page.github %}
+    <div></div>
+    <div class="is-centered"> You can find the github repository <a href="{{ page.github }}">here</a> </div>
+{% endif %}

@@ -6,6 +6,8 @@ thumbnail: /assets/images/thumbnails/gyro_2x_thumb.png
 hero_image: /assets/images/hero/gyro_temp_hero.png
 hidden: true
 
+# THIS PROJECT CANNOT FINISH WITHOUT FINAL BUILD
+
 # todo: get video
 # todo: github repo
 # todo: link other creator
