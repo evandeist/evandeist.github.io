@@ -1,7 +1,53 @@
 ---
 ---
-// todo: make all text bigger
-// todo: find better font
+
+  .right-align {
+    text-align: right;
+  }
+
+  i {
+    font-size: 3.5rem;
+  }
+
+  /* CSS styles for the 3-column list */
+  .column-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+  }
+
+  .column-list li {
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 1px;
+    position: relative;
+  }
+
+  .column-list li::before {
+    content: "\2022"; /* Unicode character for bullet (•) */
+    position: relative;
+    left: -10px;
+  }
+
+  .icon-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width:60%;
+  }
+
+  .icon-list li {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+  }
 
   .is-centered{
     text-align: center;
