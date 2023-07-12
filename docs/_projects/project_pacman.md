@@ -24,4 +24,4 @@ I decided to try a remake that was as close to the original as possible.
 
 Nearly every detail has been carefully recreated: the animations, cornering system, ghost AI, and even some of the original glitches!
 
-(Currently a WIP -- there is no menu, cutscenes, demo screen, or kill screen)
+(Currently unfinished -- there is no menu, cutscenes, demo screen, or kill screen)

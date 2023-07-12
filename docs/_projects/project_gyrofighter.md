@@ -15,7 +15,9 @@ tags: ["iOS", "Swift", "Gamedev"]
 
 ---
 
-An Asteroids-like game, with a twist! This mobile game requires the player to physically tilt their device to maneuver the ship.
-It's a simple an intuitive control scheme, but quite difficult to master.
+<img src="gyro_gameplay.PNG" alt="gyrofighter gameplay">
 
-This app was a final project for a handheld programming class (CMSC436) and written in Swift.
+An Asteroids-like game, with a twist! This mobile game requires the player to physically tilt their device to maneuver the ship. It's a simple and intuitive control scheme, but quite difficult to master! The gyro can be "recalibrated" by tapping the button in the bottom left.
+
+This app was developed in collaboration the excellent @brysonfoye.
+It was the final project for a handheld programming course (CMSC436), and is written in the Swift language.
