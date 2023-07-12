@@ -8,6 +8,8 @@ hidden: true
 
 tags: ["Processing"]
 
+# THIS PROJECT CANNOT COMPLETE UNTIL A VIDEO IS RECORDED
+
 # Todo: great photos
 # Todo: good video
 # Todo: github repo
