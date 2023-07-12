@@ -7,7 +7,7 @@ hidden: true
 
 tags: ["Unity", "Maya", "C#", "AR"]
 
-# THIS PROJECT CANNOT COMPLETE WITHOUT ANDROID TABLET
+# THIS PROJECT CANNOT COMPLETE WITHOUT ANDROID TABLET OR APPLE DEV LICENSE
 
 # todo: get good photos (need android tablet)
 # todo: get good video (need android tablet)

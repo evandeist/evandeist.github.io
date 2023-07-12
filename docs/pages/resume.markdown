@@ -15,7 +15,7 @@ hide_hero: true
 
 <body>
 
-<p>Download the pdf version of my resume <a href="docs/assets/documents/Evan Deist Resume 2023.pdf">here</a></p>
+<p>Download the pdf version of my resume <a href="/docs/assets/documents/Evan Deist Resume 2023.pdf" download>here</a></p>
 
 <section class="section">
     <h1 class="title">Education</h1>
