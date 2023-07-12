@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: "GyroFighter"
 permalink: /gyrofighter/
 thumbnail: /assets/images/thumbnails/gyro_2x_thumb.png

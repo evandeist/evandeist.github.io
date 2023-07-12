@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: "Robot Onslaught"
 permalink: /onslaught/
 thumbnail: /assets/images/thumbnails/black.jpg

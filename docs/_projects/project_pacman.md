@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: "PAC-MAN Remake"
 permalink: /pacman/
 thumbnail: /assets/images/hero/pacman_hero.png

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: "Laser Pen"
 permalink: /laserpen/
 thumbnail: /assets/images/thumbnails/laser_temp_thumb.jpg

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: "Processing Sketches"
 permalink: /processing/
 thumbnail: /assets/images/thumbnails/black.jpg

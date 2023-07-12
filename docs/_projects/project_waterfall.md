@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: "LED Waterfall"
 permalink: /waterfall/
 thumbnail: /assets/images/thumbnails/black.jpg

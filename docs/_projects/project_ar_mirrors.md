@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: "AR Laser Mirrors"
 permalink: /mirrors/
 thumbnail: /assets/images/thumbnails/ar_mirrors_thumb.PNG

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: "Raytracing studies"
 permalink: /raytracing/
 thumbnail: /assets/images/hero/raytracing_hero.png

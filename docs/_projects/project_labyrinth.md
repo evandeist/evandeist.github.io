@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: "LED Board Labyrinth"
 permalink: /labyrinth/
 thumbnail: /assets/images/thumbnails/black.jpg
