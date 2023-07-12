@@ -6,6 +6,8 @@ thumbnail: /assets/images/thumbnails/laser_temp_thumb.jpg
 hero_image: /assets/images/thumbnails/black.jpg
 hidden: true
 
+tags: ["Processing"]
+
 # Todo: great photos
 # Todo: good video
 # Todo: github repo

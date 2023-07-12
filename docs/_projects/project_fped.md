@@ -7,9 +7,12 @@ hero_image: /assets/images/hero/fped_hero.png
 github: https://github.com/evndeist/FireProtectionEngineering
 hidden: false
 
+tags: ["Unity", "C#", "Maya", "Gamedev"]
+
 # todo: images
 # todo: better desc
 # todo: gif thumb?
+# todo: link other creator
 
 ---
 

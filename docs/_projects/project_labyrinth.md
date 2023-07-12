@@ -5,7 +5,11 @@ permalink: /labyrinth/
 thumbnail: /assets/images/thumbnails/black.jpg
 hidden: true
 
-# Todo: implement a goal
+tags: ["Arduino", "C++"]
+
+# THIS PROJECT CANNOT COMPLETE UNTIL MAZE IS FINISHED
+
+# Todo: implement a goal!!
 # Todo: good video
 # Todo: github repo
 # Todo: gif thumb

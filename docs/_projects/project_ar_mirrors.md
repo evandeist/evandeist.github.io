@@ -5,6 +5,7 @@ permalink: /mirrors/
 thumbnail: /assets/images/thumbnails/ar_mirrors_thumb.PNG
 hidden: true
 
+tags: ["Unity", "Maya", "C#", "AR"]
 
 # THIS PROJECT CANNOT COMPLETE WITHOUT ANDROID TABLET
 

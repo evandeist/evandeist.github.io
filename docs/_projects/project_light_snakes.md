@@ -5,6 +5,8 @@ permalink: /lightsnakes/
 thumbnail: /assets/images/thumbnails/black.jpg
 hidden: true
 
+tags: ["smileBASIC", "Gamedev"]
+
 # todo: get better photo
 # todo: get better video
 # todo: get smilebasic link
