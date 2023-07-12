@@ -8,12 +8,14 @@ hide_hero: true
 # todo: JUST MAKE SECTIONS FOR NOW, USE CARDS LATER
 # todo: devicons
 # todo: mobile support
-# todoL make column lists centered but do not center the text inside of them
+# todo: make column lists centered but do not center the text inside of them
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
 <body>
+
+<p>Download the pdf version of my resume <a href="docs/assets/documents/Evan Deist Resume 2023.pdf">here</a></p>
 
 <section class="section">
     <h1 class="title">Education</h1>
@@ -118,6 +120,7 @@ hide_hero: true
     <ul class="icon-list">
     <!--  GitHub, Unity, Godot, Adobe Creative Cloud, Maya, Fusion, Arduino, Processing
 Jupyter Notebooks, XCode -->
+<!-- todo: use autodesk icon for fusion !-->
         <li><i class="devicon-git-plain"></i></li>
         <li><i class="devicon-github-original"></i></li>
         <li><i class="devicon-unity-original"></i></li>
