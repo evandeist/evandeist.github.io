@@ -15,11 +15,11 @@ tags: ["smileBASIC", "Gamedev"]
 ---
 
 <video width="320" height="240" controls>
-  <source type="video/type" src="/docs/assets/videos/LightSnakesDemo.mp4">
+  <source type="video/type" src="docs/assets/videos/LightSnakesDemo.mp4">
 Your browser does not support the video tag.
 </video>
 
-A competitive, 4-player snake game on Nintendo Switch!
+A classic 4-player snake game on Nintendo Switch!
 Entrap your opponents, and be the last player remaining to win.
 
 I wrote his game using smileBASIC 4 - a programming software where you can create and share games on Nintendo Switch. 

@@ -9,6 +9,7 @@ hidden: true
 tags: ["Processing"]
 
 # THIS PROJECT CANNOT COMPLETE UNTIL A VIDEO IS RECORDED
+# VIDEO CAN'T BE RECORDED UNTIL PROJECTOR ARRIVES
 
 # Todo: great photos
 # Todo: good video

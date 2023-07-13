@@ -11,7 +11,7 @@ tags: ["Unity", "C#", "Maya", "Gamedev"]
 
 # todo: images
 # todo: better desc
-# todo: gif thumb?
+# todo: better thumbnail
 # todo: link other creator
 
 ---
