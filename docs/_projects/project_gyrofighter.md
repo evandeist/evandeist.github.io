@@ -12,10 +12,11 @@ tags: ["iOS", "Swift", "Gamedev"]
 # todo: get video
 # todo: link other creator
 # todo: zoom out thumbnail
+# todo: shrink gameplay image
 
 ---
 
-<img src="/docs/assets/images/gyro/gyro_gameplay.PNG" alt="gyrofighter gameplay">
+<img src="/assets/images/gyro/gyro_gameplay.PNG" alt="gyrofighter gameplay">
 
 An Asteroids-like game, with a twist! This mobile game requires the player to physically tilt their device to maneuver the ship. It's a simple and intuitive control scheme, but quite difficult to master! The gyro can be "recalibrated" by tapping the button in the bottom left.
 

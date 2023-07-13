@@ -15,7 +15,7 @@ tags: ["smileBASIC", "Gamedev"]
 ---
 
 <video width="320" height="240" controls>
-  <source type="video/type" src="docs/assets/videos/LightSnakesDemo.mp4">
+  <source type="video/mp4" src="assets/videos/LightSnakesDemo.mp4">
 Your browser does not support the video tag.
 </video>
 
