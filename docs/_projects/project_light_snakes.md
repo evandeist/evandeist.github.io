@@ -14,7 +14,7 @@ tags: ["smileBASIC", "Gamedev"]
 # todo: zoom out thumb
 ---
 <div class="video-container">
-  <video width="50%" controls name="media">
+  <video controls name="media">
     <source type="video/mp4" src="/assets/videos/LightSnakesDemo.mp4">
   Your browser does not support the video tag.
   </video>

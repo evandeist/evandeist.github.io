@@ -10,7 +10,6 @@
   }
 
   .video-container{
-    width: 50%;
     height: auto;
     display: flex;
     align-items: center;
@@ -140,13 +139,15 @@
       transition: all 0.3s ease-in-out;
   }
 
-$primary: #1c3a46;
-$background: #1f363d;
-$body-background-color: #132930;
+// override bulma vars here
+
+$primary: #1c2946;
+$background: #3a4e7c;
+$body-background-color: #242d42;
 
 $scheme-main: #000000;
 $body-color: #afafaf;
-$scheme-main-bis: #575757;
+$scheme-main-bis: $primary;
 
 $text: #d6d6d6;
 $text-light: #e2e2e2;

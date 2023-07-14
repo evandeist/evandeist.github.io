@@ -2,7 +2,7 @@
 layout: project
 title: "PAC-MAN Remake"
 permalink: /pacman/
-thumbnail: /assets/images/hero/pacman_hero.png
+thumbnail: /assets/images/thumbnails/pacman_thumb.png
 hero_image: /assets/images/hero/pacman_hero.png
 github: https://github.com/evndeist/Pacman-Godot
 hidden: false
@@ -13,8 +13,10 @@ tags: ["godot","gdscript","gamedev"]
 # todo: gif thumb
 
 ---
+<div class="video-container">
+    <iframe frameborder="0" src="https://itch.io/embed-upload/8116050?color=333333" allowfullscreen="" width="960" height="555"><a href="https://evandeist.itch.io/pac-man-remake">Play Pac Man Remake on itch.io</a></iframe>
+</div>
 
-<iframe frameborder="0" src="https://itch.io/embed-upload/8116050?color=333333" allowfullscreen="" width="960" height="555"><a href="https://evandeist.itch.io/pac-man-remake">Play Pac Man Remake on itch.io</a></iframe>
 
 The arcade classic, faithfully recreated from the ground-up!
 
