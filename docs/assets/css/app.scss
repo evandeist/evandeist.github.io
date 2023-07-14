@@ -118,7 +118,7 @@
   }
   
   .is-bg-zoom:hover {
-      background-size: 150%;
+      background-size: 125%;
   }
   
   .hover-translate-y:hover {
@@ -128,12 +128,20 @@
   
   .is-bg-zoom {
       background-position: center;
-      background-size: 125%;
+      background-size: 100%;
       transition: all 0.3s ease-in-out;
   }
 
-$primary: #3d2c46;
-$background: #1a1a1a;
-
+$primary: #1c3a46;
+$background: #1f363d;
+$body-background-color: #132930;
+$hr-background-color: #ff0000;
+$scheme-main: #000000;
+$body-color: #afafaf;
+$scheme-main-bis: #575757;
+$scheme-invert-ter: #ffd900;
+$text: #d6d6d6;
+$text-light: #e2e2e2;
+$text-strong: #ffffff;
 // Import Main CSS file from theme
 @import "main";

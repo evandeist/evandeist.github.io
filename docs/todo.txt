@@ -3,5 +3,6 @@
 - different font style
 - Figure out how to change theme colors on the fly
 - paralax scrolling??
-- 
+- manually edit thumbnail images to fit zoom properly
+- order the projects by importance
 

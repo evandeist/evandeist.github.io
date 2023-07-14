@@ -2,20 +2,20 @@
 layout: project
 title: "Light Snakes"
 permalink: /lightsnakes/
-thumbnail: /assets/images/thumbnails/black.jpg
+thumbnail: /assets/images/thumbnails/light_snakes_thumb.jpg
+hero_image: /assets/images/hero/light_snakes_hero_2.jpg
+hero_height: is-large
 hidden: false
 
 tags: ["smileBASIC", "Gamedev"]
 
 # todo: get better photo
-# todo: get better video
-# todo: gif thumb
-# https://www.cazzulino.com/github-pages-embed-video.html
-
+# todo: center video
+# todo: zoom out thumb
 ---
 
-<video width="320" height="240" controls>
-  <source type="video/mp4" src="assets/videos/LightSnakesDemo.mp4">
+<video width="50%" controls name="media">
+  <source type="video/mp4" src="/assets/videos/LightSnakesDemo.mp4">
 Your browser does not support the video tag.
 </video>
 

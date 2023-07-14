@@ -14,7 +14,7 @@ tags: ["godot","gdscript","gamedev"]
 
 ---
 
-<iframe frameborder="0" src="https://itch.io/embed-upload/8116050?color=333333" allowfullscreen="" width="640" height="370"><a href="https://evandeist.itch.io/pac-man-remake">Play Pac Man Remake on itch.io</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed-upload/8116050?color=333333" allowfullscreen="" width="960" height="555"><a href="https://evandeist.itch.io/pac-man-remake">Play Pac Man Remake on itch.io</a></iframe>
 
 The arcade classic, faithfully recreated from the ground-up!
 
