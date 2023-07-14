@@ -4,15 +4,13 @@ title: "Robot Onslaught"
 permalink: /onslaught/
 thumbnail: /assets/images/thumbnails/robot_onslaught_thumb.PNG
 hero_image: /assets/images/hero/robot_onslaught_hero.png
+#hero_darken: true
+github: https://github.com/10se1ucgo/425FinalProject
 hidden: false
 
 tags: ["Unity", "Maya", "C#", "Gamedev"]
 
-# todo: get better thumb
-# todo: get gameplay video (short)
-# todo: github repo
 # todo: link other creator
-# todo: gif thumb
 
 ---
 <div class="video-container">

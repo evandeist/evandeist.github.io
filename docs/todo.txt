@@ -1,6 +1,7 @@
 - space out navbar options
 - larger menu font
 - different font style
+- larger body font
 - Figure out how to change theme colors on the fly
 - paralax scrolling??
 - manually edit thumbnail images to fit zoom properly

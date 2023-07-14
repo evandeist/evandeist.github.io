@@ -9,11 +9,10 @@ hidden: false
 
 tags: ["godot","gdscript","gamedev"]
 
-# todo: link research materials
-# todo: gif thumb
+# todo: revise
 
 ---
-<div class="video-container">
+<div class="game-container">
     <iframe frameborder="0" src="https://itch.io/embed-upload/8116050?color=333333" allowfullscreen="" width="960" height="555"><a href="https://evandeist.itch.io/pac-man-remake">Play Pac Man Remake on itch.io</a></iframe>
 </div>
 
@@ -25,5 +24,4 @@ but I was quickly fascinated by the mechanical intricacies of the original game.
 I decided to try a remake that was as close to the original as possible.
 
 Nearly every detail has been carefully recreated: the animations, cornering system, ghost AI, and even some of the original glitches!
-
-(Currently unfinished -- there is no menu, cutscenes, demo screen, or kill screen)
+Special thanks to the <a href="https://pacman.holenet.info/">Pac Man Dossier</a> for dissecting the original game

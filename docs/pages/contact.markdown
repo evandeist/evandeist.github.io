@@ -4,8 +4,7 @@ title: Contact
 permalink: /contact/
 # todo: add github and linkedin icons
 # todo: add email icon
-# todo: add phone icon
-# todo: message box??
+# todo: icons going across
 ---
 
 Email: [egdeist@outlook.com][email]

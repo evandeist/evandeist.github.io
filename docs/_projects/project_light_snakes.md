@@ -9,9 +9,6 @@ hidden: false
 
 tags: ["smileBASIC", "Gamedev"]
 
-# todo: get better photo
-# todo: center video
-# todo: zoom out thumb
 ---
 <div class="video-container">
   <video controls name="media">
