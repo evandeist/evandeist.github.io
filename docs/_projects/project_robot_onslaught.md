@@ -16,6 +16,11 @@ tags: ["Unity", "Maya", "C#", "Gamedev"]
 
 ---
 
+<video width="50%" controls name="media">
+  <source type="video/mp4" src="/assets/videos/LightSnakesDemo.mp4">
+Your browser does not support the video tag.
+</video>
+
 Fight an endless swarm of rogue machines! 
 
 Robot Onslaught is a 1st-person shooter where you must think quickly in order to survive. Dash, jump, and blast your way through increasingly massive waves of enemies! Destroy as many robots as you can to rack up your score. There are 5 unique weapons to master.

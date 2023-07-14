@@ -135,13 +135,15 @@
 $primary: #1c3a46;
 $background: #1f363d;
 $body-background-color: #132930;
-$hr-background-color: #ff0000;
+
 $scheme-main: #000000;
 $body-color: #afafaf;
 $scheme-main-bis: #575757;
-$scheme-invert-ter: #ffd900;
+
 $text: #d6d6d6;
 $text-light: #e2e2e2;
 $text-strong: #ffffff;
+
+
 // Import Main CSS file from theme
 @import "main";
