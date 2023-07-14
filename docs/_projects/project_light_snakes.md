@@ -4,7 +4,7 @@ title: "Light Snakes"
 permalink: /lightsnakes/
 thumbnail: /assets/images/thumbnails/light_snakes_thumb.jpg
 hero_image: /assets/images/hero/light_snakes_hero_2.jpg
-hero_height: is-large
+hero_darken: true
 hidden: false
 
 tags: ["smileBASIC", "Gamedev"]

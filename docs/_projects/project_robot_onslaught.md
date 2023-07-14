@@ -2,7 +2,7 @@
 layout: project
 title: "Robot Onslaught"
 permalink: /onslaught/
-thumbnail: /assets/images/thumbnails/black.jpg
+thumbnail: /assets/images/thumbnails/robot_onslaught_thumb.PNG
 hero_image: /assets/images/thumbnails/robot_onslaught_thumb.PNG
 hidden: false
 
@@ -17,7 +17,7 @@ tags: ["Unity", "Maya", "C#", "Gamedev"]
 ---
 
 <video width="50%" controls name="media">
-  <source type="video/mp4" src="/assets/videos/LightSnakesDemo.mp4">
+  <source type="video/mp4" src="/assets/videos/RO_gameplay.mp4">
 Your browser does not support the video tag.
 </video>
 
