@@ -15,11 +15,12 @@ tags: ["Unity", "Maya", "C#", "Gamedev"]
 # todo: gif thumb
 
 ---
-
-<video width="50%" controls name="media">
-  <source type="video/mp4" src="/assets/videos/RO_gameplay.mp4">
-Your browser does not support the video tag.
-</video>
+<div class="video-container">
+    <video width="50%" controls name="media" class=".video-container">
+    <source type="video/mp4" src="/assets/videos/RO_gameplay.mp4">
+    Your browser does not support the video tag.
+    </video>
+</div>
 
 Fight an endless swarm of rogue machines! 
 

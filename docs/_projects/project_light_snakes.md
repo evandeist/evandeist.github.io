@@ -2,7 +2,7 @@
 layout: project
 title: "Light Snakes"
 permalink: /lightsnakes/
-thumbnail: /assets/images/thumbnails/light_snakes_thumb.jpg
+thumbnail: /assets/images/thumbnails/light_snakes_thumb.png
 hero_image: /assets/images/hero/light_snakes_hero_2.jpg
 hero_darken: true
 hidden: false
@@ -13,11 +13,12 @@ tags: ["smileBASIC", "Gamedev"]
 # todo: center video
 # todo: zoom out thumb
 ---
-
-<video width="50%" controls name="media">
-  <source type="video/mp4" src="/assets/videos/LightSnakesDemo.mp4">
-Your browser does not support the video tag.
-</video>
+<div class="video-container">
+  <video width="50%" controls name="media">
+    <source type="video/mp4" src="/assets/videos/LightSnakesDemo.mp4">
+  Your browser does not support the video tag.
+  </video>
+</div>
 
 A classic 4-player snake game on Nintendo Switch!
 Entrap your opponents, and be the last player remaining to win.

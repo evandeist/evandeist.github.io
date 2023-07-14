@@ -9,11 +9,12 @@
     font-size: 3.5rem;
   }
 
-  video{
+  .video-container{
     width: 50%;
     height: auto;
-    align-self: center;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   /* CSS styles for the 3-column list */
@@ -93,11 +94,11 @@
   }
   
   .is-bg-cover .card-content {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.02);
   }
   
   .is-bg-cover:hover .card-content {
-    background-color: rgba(0, 0, 0, 0.02);
+    background-color: rgba(0, 0, 0, 0.4);
   }
   
   .title-transform-y {
