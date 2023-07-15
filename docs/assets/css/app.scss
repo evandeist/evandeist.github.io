@@ -6,11 +6,20 @@
   }
 
   i {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 
   body{
     font-size: 4rem;
+  }
+
+  .box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .video-container{
@@ -19,6 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2%;
   }
 
   .game-container{
@@ -158,14 +168,17 @@ $primary: #1c2946;
 $background: #3a4e7c;
 $body-background-color: #242d42;
 
-$scheme-main: #000000;
-$body-color: #afafaf;
+$scheme-main: #44486b;
+$body-color: #dbdbdd;
 $scheme-main-bis: $primary;
 
 $text: #d6d6d6;
 $text-light: #e2e2e2;
 $text-strong: #ffffff;
 
+$link: #66a3e9;
+$link-hover: #5eaed3;
+$link-visited: #7969c2;
 
 // Import Main CSS file from theme
 @import "main";

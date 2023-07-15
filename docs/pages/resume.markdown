@@ -89,29 +89,54 @@ hide_hero: true
 <section class="section">
     <h1 class="title">Skills</h1>
     <h2>
-        Operating Systems
-    </h2>
-    <ul class="icon-list">
-        <li><i class="devicon-windows8-original"></i></li>
-        <li><i class="devicon-unix-original"></i></li>
-        <li><i class="devicon-apple-original"></i></li>
-    </ul>
-    <h2>
         Languages
     </h2>
     <ul class="icon-list">
     <!--  Python, Java,, C#, C, Swift, Rust, Bash, Ruby, JavaScript, OCaml, HTML/CSS-->
-        <li><i class="devicon-python-plain"></i></li>
-        <li><i class="devicon-java-plain"></i></li>
-        <li><i class="devicon-csharp-plain"></i></li>
-        <li><i class="devicon-c-plain"></i></li>
-        <li><i class="devicon-swift-plain"></i></li>
-        <li><i class="devicon-rust-plain"></i></li>
-        <li><i class="devicon-bash-plain"></i></li>
-        <li><i class="devicon-ruby-plain"></i></li>
-        <li><i class="devicon-javascript-plain"></i></li>
-        <li><i class="devicon-ocaml-plain"></i></li>
-        <li><i class="devicon-html5-plain"></i></li>
+        <li>
+            <i class="devicon-python-plain"></i>
+            <p>Python</p>
+        </li>
+        <li>
+            <i class="devicon-java-plain"></i>
+            <p>Java</p>
+        </li>
+        <li>
+            <i class="devicon-csharp-plain"></i>
+            <p>C#</p>
+        </li>
+        <li>
+            <i class="devicon-c-plain"></i>
+            <p>C</p>
+        </li>
+        <li>
+            <i class="devicon-swift-plain"></i>
+            <p>Swift</p>
+        </li>
+        <li>
+            <i class="devicon-rust-plain"></i>
+            <p>Rust</p>
+        </li>
+        <li>
+            <i class="devicon-bash-plain"></i>
+            <p>Bash</p>
+        </li>
+        <li>
+            <i class="devicon-ruby-plain"></i>
+            <p>Ruby</p>
+        </li>
+        <li>
+            <i class="devicon-javascript-plain"></i>
+            <p>JavaScript</p>
+        </li>
+        <li>
+            <i class="devicon-ocaml-plain"></i>
+            <p>OCaml</p>
+        </li>
+        <li>
+            <i class="devicon-html5-plain"></i>
+            <p>HTML5</p>
+        </li>
     </ul>
     <h2>
         Technologies
@@ -119,20 +144,54 @@ hide_hero: true
     <ul class="icon-list">
     <!--  GitHub, Unity, Godot, Adobe Creative Cloud, Maya, Fusion, Arduino, Processing
 Jupyter Notebooks, XCode -->
-<!-- todo: use autodesk icon for fusion !-->
-        <li><i class="devicon-git-plain"></i></li>
-        <li><i class="devicon-github-original"></i></li>
-        <li><i class="devicon-unity-original"></i></li>
-        <li><i class="devicon-godot-plain"></i></li>
-        <li><i class="devicon-photoshop-plain"></i></li>
-        <li><i class="devicon-illustrator-plain"></i></li>
-        <li><i class="devicon-maya-plain"></i></li>
-        <li><i class="devicon-fusion-plain"></i></li>
-        <li><i class="devicon-arduino-plain"></i></li>
-        <li><i class="devicon-processing-plain"></i></li>
-        <li><i class="devicon-jupyter-plain"></i></li>
-        <li><i class="devicon-xcode-plain"></i></li>
-        
+        <li>
+            <i class="devicon-git-plain"></i>
+            <p>Git</p>
+        </li>
+        <li>
+            <i class="devicon-github-original"></i>
+            <p>Github</p>
+        </li>
+        <li>
+            <i class="devicon-unity-original"></i>
+            <p>Unity</p>
+        </li>
+        <li>
+            <i class="devicon-godot-plain"></i>
+            <p>Godot</p>
+        </li>
+        <li>
+            <i class="devicon-photoshop-plain"></i>
+            <p>Photoshop</p>
+        </li>
+        <li>
+            <i class="devicon-illustrator-plain"></i>
+            <p>Illustrator</p>
+        </li>
+        <li>
+            <i class="devicon-maya-plain"></i>
+            <p>Maya</p>
+        </li>
+        <li>
+            <i class="devicon-fusion-plain"></i>
+            <p>Fusion360</p>
+        </li>
+        <li>
+            <i class="devicon-arduino-plain"></i>
+            <p>Arduino</p>
+        </li>
+        <li>
+            <i class="devicon-processing-plain"></i>
+            <p>Processing</p>
+        </li>
+        <li>
+            <i class="devicon-jupyter-plain"></i>
+            <p>Jupyter</p>
+        </li>
+        <li>
+            <i class="devicon-xcode-plain"></i>
+            <p>XCode</p>
+        </li>
     </ul>
     
 </section>

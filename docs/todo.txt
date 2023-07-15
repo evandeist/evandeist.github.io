@@ -1,3 +1,22 @@
+Tasks:
+- Home Page ***
+- Waterfall ***
+- Gyrofighter Video ***
+- othello python flask/django
+- laser doodle video
+- labyrinth goal and video
+- find better location for processing sketches (hero, footer, background?)
+- project tags
+- search projects by tag
+- click on skills in resume to search by tag
+
+Fixes:
+- resume page formatting***
+- black bars on project thumbnails
+- mobile viewing of resume is janked
+
+Nitpicks:
+- landscape photos for hero***
 - space out navbar options
 - larger menu font
 - different font style
@@ -6,4 +25,4 @@
 - paralax scrolling??
 - manually edit thumbnail images to fit zoom properly
 - order the projects by importance
-
+- display tags underneath project thumbnails

@@ -11,7 +11,6 @@ tags: ["iOS", "Swift", "Gamedev"]
 
 # todo: get video
 # todo: link other creator
-# todo: zoom out thumbnail
 # todo: shrink gameplay image
 
 ---

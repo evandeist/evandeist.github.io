@@ -2,7 +2,7 @@
 layout: project
 title: "Fire Pump Simulation"
 permalink: /fped/
-thumbnail: /assets/images/thumbnails/fped_thumb_2.png
+thumbnail: /assets/images/thumbnails/fped_2x_thumb.png
 #thumbnail: /assets/images/hero/fped_hero.png
 hero_image: /assets/images/hero/fped_hero.png
 hero_darken: true

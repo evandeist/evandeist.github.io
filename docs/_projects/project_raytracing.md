@@ -11,7 +11,7 @@ tags: ["C++", "computer graphics"]
 # todo: github repo
 # todo: get better screenshots
 # todo: link source
-
+# should I include this at all?
 ---
 
 Raytracing studies
