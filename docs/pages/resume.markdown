@@ -21,7 +21,7 @@ hide_hero: true
     <h2 class="subtitle">
         B.S. in Computer Science 
     </h2>
-    <h2 class="subtitle right-align">
+    <h2 class="subtitle">
         University of Maryland, College Park
     </h2>
     <h2 class="subtitle">
