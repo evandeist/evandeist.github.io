@@ -2,18 +2,17 @@ Tasks:
 - Home Page ***
 - Waterfall ***
 - Gyrofighter Video ***
-- Resume Page content
 - othello python flask/django
 - laser doodle video
 - labyrinth video
 - put processing sketch in banner of projects tab
-Fixes:
+
+Fixes:   
 - resume page formatting***
 - black bars on project thumbnails
-- mobile viewing of resume is janked
+- adjust mobile font size
 
 Nitpicks:
-- landscape photos for hero***
 - space out navbar options
 - larger menu font
 - different font style
