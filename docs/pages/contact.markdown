@@ -2,8 +2,8 @@
 layout: page
 title: Contact
 permalink: /contact/
+hero_image: /assets/images/hero/contact_hero.jpg
 
-# todo: make better
 # todo: update phone
 
 ---
@@ -20,7 +20,7 @@ permalink: /contact/
   <div class="tile is-parent is-3">
     <a href="tel:123-456-7890" class="tile is-child box">
         <i class="fa fa-phone" style="font-size:10.5rem"></i>
-        <h2>123-456-7890</h2>  
+        <h2>240-277-5220</h2>  
     </a>
   </div>
   <div class="tile is-parent is-3">

@@ -2,14 +2,11 @@ Tasks:
 - Home Page ***
 - Waterfall ***
 - Gyrofighter Video ***
+- Resume Page content
 - othello python flask/django
 - laser doodle video
-- labyrinth goal and video
-- find better location for processing sketches (hero, footer, background?)
-- project tags
-- search projects by tag
-- click on skills in resume to search by tag
-
+- labyrinth video
+- put processing sketch in banner of projects tab
 Fixes:
 - resume page formatting***
 - black bars on project thumbnails

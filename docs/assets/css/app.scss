@@ -13,6 +13,11 @@
     font-size: 4rem;
   }
 
+  .resume-h1{
+    margin: 0px;
+    top: 10px;
+  }
+
   .box{
     width: 100%;
     height: 100%;
@@ -31,7 +36,7 @@
     padding: 2%;
   }
 
-  .game-container{
+  .game-container {
     width: 100%;
     height: auto;
     display: flex;
@@ -39,13 +44,17 @@
     justify-content: center;
   }
 
-  /* CSS styles for the 3-column list */
+  .pdf-button {
+    top:-10px;
+    text-align: center;
+    align-self: center;
+  }
+
   .column-list {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     padding: 0;
-    margin: 0;
     width: 80%;
   }
 
@@ -54,12 +63,73 @@
     box-sizing: border-box;
     padding: 1px;
     position: relative;
+    left: 60px;
   }
 
   .column-list li::before {
     content: "\2022"; /* Unicode character for bullet (•) */
     position: relative;
     left: -10px;
+    top: 1px;
+    font-size: 1.4rem;
+  }
+
+  .resume-list{
+    font-size: 1rem;
+    padding: 0px;
+    margin: 5px;
+    width: 70%;
+    top: -10px;
+  }
+
+  .resume-list li + li {
+    margin-top: -13px;
+  }
+
+  .resume-list li::before{
+    content: "\2023"; /* Unicode character for triangle bullet*/
+    position: relative;
+    left: -10px;
+    top: 5px;
+    font-size: 2rem;
+  }
+
+  .resume-section{
+    position: relative;
+    padding:20px;
+  }
+
+  .resume-section img {
+    position: absolute;
+    top: 45px;
+    right: 15px;
+    width: 11%;
+    float: right;
+    clear: left;
+  }
+
+  .resume-section p {
+    margin-top: .4em;
+    margin-bottom: .4em;
+  }
+
+  hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #ccc, #ccc);
+  }
+
+
+  .icon-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
   }
 
   .icon-list{
@@ -69,7 +139,7 @@
     padding: 0;
     margin: 0;
     text-align: center;
-    width:60%;
+    width:100%;
   }
 
   .icon-list li {
@@ -82,6 +152,61 @@
   .is-centered{
     text-align: center;
     align-self: center;
+  }
+
+  /* on mobile, single column list */
+  @media (max-width: 800px) {
+    .column-list {
+      flex-direction: column; /* Display items in a single column */
+    }
+
+    .column-list li {
+      width: 100%; /* Set full width for single column */
+    }
+
+    .resume-section h2 {
+      font-size: 1rem;
+      width:60%;
+    }
+
+    .resume-section img {
+      position: absolute;
+      top: 30px;
+      right: 10px;
+      width: 19%;
+    }
+
+    i{
+      font-size: 2rem;
+    }
+
+    .icon-list-container{
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .icon-list{
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      width:100%;
+    }
+
+    .icon-list li {
+      width: 50%;
+      box-sizing: border-box;
+      padding: 10px;
+      position: relative;
+    }
   }
 
   .pt-24 {
@@ -162,18 +287,20 @@
       transition: all 0.3s ease-in-out;
   }
 
+
+
 // override bulma vars here
 
-$primary: #1c2946;
-$background: #3a4e7c;
-$body-background-color: #242d42;
+$primary: #2b2b2b;
+$background: #1d1d1d;
+$body-background-color: #353535;
 
-$scheme-main: #44486b;
-$body-color: #dbdbdd;
+$scheme-main: #202020;
+$body-color: #ffffff;
 $scheme-main-bis: $primary;
 
-$text: #d6d6d6;
-$text-light: #e2e2e2;
+$text: #ececec;
+$text-light: #ffffff;
 $text-strong: #ffffff;
 
 $link: #66a3e9;
