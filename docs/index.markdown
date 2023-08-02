@@ -1,12 +1,16 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+
+# Todo: profile image
+# Todo: right align text
+# Todo: see projects button
+# Todo: processing js background?
+
 ---
 
-This is the home page
+Hello! I'm Evan Deist.
 
-There is nothing much to see yet
-
-Please stay tuned!
+I'm a developer that like to create interactive experiences.
+Take a look at some of my work!
