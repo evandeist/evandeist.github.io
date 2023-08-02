@@ -27,6 +27,8 @@
     text-align: center;
   }
 
+  // todo: make video smaller but keep it centered
+
   .video-container{
     width: 100%;
     height: auto;
@@ -120,7 +122,6 @@
     background-image: linear-gradient(to right, #ccc, #ccc, #ccc);
   }
 
-
   .icon-list-container{
     display: flex;
     flex-wrap: wrap;
@@ -154,59 +155,9 @@
     align-self: center;
   }
 
-  /* on mobile, single column list */
-  @media (max-width: 800px) {
-    .column-list {
-      flex-direction: column; /* Display items in a single column */
-    }
-
-    .column-list li {
-      width: 100%; /* Set full width for single column */
-    }
-
-    .resume-section h2 {
-      font-size: 1rem;
-      width:60%;
-    }
-
-    .resume-section img {
-      position: absolute;
-      top: 30px;
-      right: 10px;
-      width: 19%;
-    }
-
-    i{
-      font-size: 2rem;
-    }
-
-    .icon-list-container{
-      display: flex;
-      flex-wrap: wrap;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      text-align: center;
-      justify-content: center;
-      width: 100%;
-    }
-  
-    .icon-list{
-      display: flex;
-      flex-wrap: wrap;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      text-align: center;
-      width:100%;
-    }
-
-    .icon-list li {
-      width: 50%;
-      box-sizing: border-box;
-      padding: 10px;
-      position: relative;
-    }
+  .is-right{
+    text-align: right;
+    align-self: right;
   }
 
   .pt-24 {
@@ -225,7 +176,6 @@
   .has-no-rounded {
       border-radius: 0px !important;
   }
-  
   
   .is-cursor-pointer {
       cursor: pointer !important;
@@ -287,13 +237,73 @@
       transition: all 0.3s ease-in-out;
   }
 
+  @media (max-width: 800px) {
+
+    .is-bg-zoom {
+      background-position: center;
+      background-size: 130%;
+  }
+
+    .column-list {
+      flex-direction: column; /* Display items in a single column */
+    }
+
+    .column-list li {
+      width: 100%; /* Set full width for single column */
+    }
+
+    .resume-section h2 {
+      font-size: 1rem;
+      width:60%;
+    }
+
+    .resume-section img {
+      position: absolute;
+      top: 30px;
+      right: 10px;
+      width: 19%;
+    }
+
+    i{
+      font-size: 2rem;
+    }
+
+    .icon-list-container{
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .icon-list{
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      width:100%;
+    }
+
+    .icon-list li {
+      width: 33.333%;
+      box-sizing: border-box;
+      padding: 10px;
+      position: relative;
+    }
+  }
+
 
 
 // override bulma vars here
 
-$primary: #2b2b2b;
-$background: #1d1d1d;
-$body-background-color: #353535;
+$primary: #11132f;
+$background: #1f184d;
+$body-background-color: #1b2251;
 
 $scheme-main: #202020;
 $body-color: #ffffff;

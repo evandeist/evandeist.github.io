@@ -11,11 +11,7 @@ hidden: false
 
 tags: ["Unity", "C#", "Maya", "Gamedev"]
 
-# todo: images
-# todo: better desc
-# todo: better thumbnail
-# todo: link other creator
-
+# todo: better images
 ---
 
 
@@ -27,4 +23,7 @@ The pump room contains a fire pump, which students can control using the electir
 
 Below is a link to the game, though it may not be very fun if you don't know what you're doing!
 
-<iframe frameborder="0" src="https://itch.io/embed/1627219" width="552" height="167" class="is-centered"><a href="https://evandeist.itch.io/virtual-warehouse">Virtual Warehouse by evandeist</a></iframe>
+
+<div class="is-centered">
+    <iframe frameborder="0" src="https://itch.io/embed/1627219" width="552" height="167" class="is-centered"><a href="https://evandeist.itch.io/virtual-warehouse">Virtual Warehouse by evandeist</a></iframe>
+</div>

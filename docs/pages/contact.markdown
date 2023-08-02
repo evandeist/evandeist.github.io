@@ -2,9 +2,10 @@
 layout: page
 title: Contact
 permalink: /contact/
-hero_image: /assets/images/hero/contact_hero.jpg
+hero_image: /assets/images/hero/contact_hero.JPG
 
 # todo: update phone
+# make text blue on highlight
 
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,7 +19,7 @@ hero_image: /assets/images/hero/contact_hero.jpg
     </a>
   </div>
   <div class="tile is-parent is-3">
-    <a href="tel:123-456-7890" class="tile is-child box">
+    <a href="tel:240-277-5220" class="tile is-child box">
         <i class="fa fa-phone" style="font-size:10.5rem"></i>
         <h2>240-277-5220</h2>  
     </a>

@@ -1,24 +1,26 @@
 ---
 layout: project
-title: "LED Board Labyrinth"
+title: "LED Labyrinth"
 permalink: /labyrinth/
-thumbnail: /assets/images/thumbnails/black.jpg
-hidden: true
+thumbnail: /assets/images/thumbnails/labyrinth_thumb_2.jpg
+hero_image: /assets/images/thumbnails/labyrinth_thumb_2.jpg
+github: https://github.com/evndeist/LED-Labyrinth
+hidden: false
 
 tags: ["Arduino", "C++"]
 
-# THIS PROJECT CANNOT COMPLETE UNTIL MAZE IS FINISHED
-# MAZE CANNOT FINISH UNTIL ARDUINO MEGA COMES
-
-# Todo: implement a goal!!
-# Todo: good video
-# Todo: github repo
-# Todo: gif thumb
-
+# Make video smaller
 ---
 
+<div class="video-container">
+  <video controls name="media">
+    <source type="video/mp4" src="/assets/videos/labyrinth.mp4">
+  Your browser does not support the video tag.
+  </video>
+</div>
+
 A digital marble labyrinth on a 64x64 LED matrix.
-As with a regular labyrinth, just tilt the board to roll the marble toward the goal.
+Tilt the board to roll the marble toward the goal, while avoiding the holes!
 
 This arduino project uses a 6-axis IMU (Interial Measurement Unit) to detect tilt. 
-The greatest challenge was acheiving natural motion on such a limited display. It took a lot of optimizations to get it running smoothly.
+The greatest challenge was acheiving natural motion on such a small-resolution display. It took a lot of optimizations to get things running smoothly.
