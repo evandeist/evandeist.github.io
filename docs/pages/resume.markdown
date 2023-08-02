@@ -13,7 +13,11 @@ hide_hero: true
 
 <body>
 
-<div class="pdf-button is-centered">
+<h1>
+    Resume
+</h1>
+
+<div class="pdf-button is-right">
     <a class="button" href="/docs/assets/documents/Evan Deist Resume 2023.pdf" download>Download pdf version</a>
 </div>
 
