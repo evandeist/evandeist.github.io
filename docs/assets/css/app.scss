@@ -27,8 +27,10 @@
     text-align: center;
   }
 
+  // todo: make video smaller but keep it centered
+
   .video-container{
-    width: 80%;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;
@@ -299,9 +301,9 @@
 
 // override bulma vars here
 
-$primary: #091068;
-$background: #1d1459;
-$body-background-color: #192157;
+$primary: #11132f;
+$background: #1f184d;
+$body-background-color: #1b2251;
 
 $scheme-main: #202020;
 $body-color: #ffffff;
