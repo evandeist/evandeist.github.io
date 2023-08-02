@@ -120,7 +120,6 @@
     background-image: linear-gradient(to right, #ccc, #ccc, #ccc);
   }
 
-
   .icon-list-container{
     display: flex;
     flex-wrap: wrap;
@@ -142,8 +141,6 @@
     width:100%;
   }
 
-  
-// todo: 3 columns on mobile
   .icon-list li {
     width: 25%;
     box-sizing: border-box;
@@ -154,61 +151,6 @@
   .is-centered{
     text-align: center;
     align-self: center;
-  }
-
-  /* on mobile, single column list */
-  @media (max-width: 800px) {
-    .column-list {
-      flex-direction: column; /* Display items in a single column */
-    }
-
-    .column-list li {
-      width: 100%; /* Set full width for single column */
-    }
-
-    .resume-section h2 {
-      font-size: 1rem;
-      width:60%;
-    }
-
-    .resume-section img {
-      position: absolute;
-      top: 30px;
-      right: 10px;
-      width: 19%;
-    }
-
-    i{
-      font-size: 2rem;
-    }
-
-    .icon-list-container{
-      display: flex;
-      flex-wrap: wrap;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      text-align: center;
-      justify-content: center;
-      width: 100%;
-    }
-  
-    .icon-list{
-      display: flex;
-      flex-wrap: wrap;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      text-align: center;
-      width:100%;
-    }
-
-    .icon-list li {
-      width: 33.333%;
-      box-sizing: border-box;
-      padding: 10px;
-      position: relative;
-    }
   }
 
   .pt-24 {
@@ -227,7 +169,6 @@
   .has-no-rounded {
       border-radius: 0px !important;
   }
-  
   
   .is-cursor-pointer {
       cursor: pointer !important;
@@ -289,13 +230,73 @@
       transition: all 0.3s ease-in-out;
   }
 
+  @media (max-width: 800px) {
+
+    .is-bg-zoom {
+      background-position: center;
+      background-size: 130%;
+  }
+
+    .column-list {
+      flex-direction: column; /* Display items in a single column */
+    }
+
+    .column-list li {
+      width: 100%; /* Set full width for single column */
+    }
+
+    .resume-section h2 {
+      font-size: 1rem;
+      width:60%;
+    }
+
+    .resume-section img {
+      position: absolute;
+      top: 30px;
+      right: 10px;
+      width: 19%;
+    }
+
+    i{
+      font-size: 2rem;
+    }
+
+    .icon-list-container{
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .icon-list{
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      width:100%;
+    }
+
+    .icon-list li {
+      width: 33.333%;
+      box-sizing: border-box;
+      padding: 10px;
+      position: relative;
+    }
+  }
+
 
 
 // override bulma vars here
 
-$primary: #2b2b2b;
-$background: #1d1d1d;
-$body-background-color: #353535;
+$primary: #091068;
+$background: #1d1459;
+$body-background-color: #192157;
 
 $scheme-main: #202020;
 $body-color: #ffffff;
