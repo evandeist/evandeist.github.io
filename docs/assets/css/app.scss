@@ -142,6 +142,8 @@
     width:100%;
   }
 
+  
+// todo: 3 columns on mobile
   .icon-list li {
     width: 25%;
     box-sizing: border-box;
@@ -202,7 +204,7 @@
     }
 
     .icon-list li {
-      width: 50%;
+      width: 33.333%;
       box-sizing: border-box;
       padding: 10px;
       position: relative;
