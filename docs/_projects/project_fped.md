@@ -11,9 +11,7 @@ hidden: false
 
 tags: ["Unity", "C#", "Maya", "Gamedev"]
 
-# todo: images
-# todo: better thumbnail
-
+# todo: better images
 ---
 
 
