@@ -2,6 +2,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+hero_image: /assets/images/hero/contact_hero.JPG
 
 # Todo: profile image
 # Todo: right align text

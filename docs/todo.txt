@@ -8,12 +8,11 @@ Tasks:
 - labyrinth video
 - put processing sketch in banner of projects tab
 Fixes:
-- resume page formatting***
 - black bars on project thumbnails
-- mobile viewing of resume is janked
+- mobile viewing of resume is still janked
 
 Nitpicks:
-- landscape photos for hero***
+- should videos go above or below descriptions?
 - space out navbar options
 - larger menu font
 - different font style

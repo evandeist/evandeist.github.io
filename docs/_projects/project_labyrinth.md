@@ -2,18 +2,18 @@
 layout: project
 title: "LED Board Labyrinth"
 permalink: /labyrinth/
-thumbnail: /assets/images/thumbnails/black.jpg
+thumbnail: /assets/images/thumbnails/labyrinth_thumb.jpg
+hero_image: /assets/images/thumbnails/labyrinth_thumb.jpg
 hidden: false
 
 tags: ["Arduino", "C++"]
 
 # Todo: github repo
-# Add video
-
+# Make video smaller
 ---
 
 <div class="video-container">
-  <video controls name="media">
+  <video controls name="media" width=60%>
     <source type="video/mp4" src="/assets/videos/labyrinth.mp4">
   Your browser does not support the video tag.
   </video>

@@ -19,7 +19,7 @@ hero_image: /assets/images/hero/contact_hero.JPG
     </a>
   </div>
   <div class="tile is-parent is-3">
-    <a href="tel:123-456-7890" class="tile is-child box">
+    <a href="tel:240-277-5220" class="tile is-child box">
         <i class="fa fa-phone" style="font-size:10.5rem"></i>
         <h2>240-277-5220</h2>  
     </a>
