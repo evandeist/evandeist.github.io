@@ -22,7 +22,7 @@ layout: home
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 43.0%;
+    max-width: 53%;
     height: auto;
     transform: translate(-50%, -50%);
     padding: 10px;
@@ -37,18 +37,23 @@ layout: home
     font-weight: bold;
     color: white;
     font-size: 4.2vw;
-    margin: 2px;
-    padding: 2px;
+    margin: -3%;
+  }
+  .greeting-card p{
+    font-size: 1.2vw;
+    margin-top: 2%;
   }
   .greeting-card-button{
     float: right;
-    transform: translate(40%, 50%);
+    transform: translate(-10%, 60%);
     font-weight: bold;
-    background-color: rgb(51, 74, 139);
+    background-color: rgb(75, 93, 141);
     color: rgb(196, 196, 196);
-    font-size: 2.2vw;
+    font-size: 2.7vw;
     padding: 2%;
-    border-radius: 5px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 1.3vmin;
     border-color: rgb(51, 74, 139);
     border-style: thin;
   }
@@ -76,7 +81,7 @@ layout: home
   <img class="profile-image" src="assets/images/other/profile_1.jpg" alt="Profile Picture">
 
   <h1>Hello! I'm</h1>
-  <h1>Evan Deist</h1>
+  <h1><span>Evan Deist</span></h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <button class="greeting-card-button">See Projects</button>
+  <a class="greeting-card-button" href="/projects">See Projects</button>
 <div>

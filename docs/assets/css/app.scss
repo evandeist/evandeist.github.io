@@ -323,6 +323,9 @@
     }
   }
 
+  .navbar-item {
+    color: #7969c2; /* Replace "your-desired-color" with the color you want */
+  }
 
 // override bulma vars here
 $primary: #343865;
@@ -345,4 +348,3 @@ $link-visited: #7969c2;
 
 // Import Main CSS file from theme
 @import "main";
-

@@ -11,7 +11,7 @@
                 <span aria-hidden="true"></span>
             </a>
         </div>
-        <div class="navbar-menu" style="text-align:right;" id="navMenu" :class="{ 'is-active': openNav }">
+        <div class="navbar-menu" style="text-align:right; color:red;" id="navMenu" :class="{ 'is-active': openNav }">
             <div class="navbar-end">
                 <a href="{{ site.baseurl }}/" class="navbar-item {% if page.url == "/" %}is-active{% endif %}">Home</a>
                 {% if site.data.navigation %}

@@ -1,14 +1,9 @@
 Tasks:
-- Home Page ***
 - Waterfall ***
 - Gyrofighter Video ***
-- othello python flask/django
 - laser doodle video
-- labyrinth video
-- put processing sketch in banner of projects tab
 
 Fixes:   
-- resume page formatting***
 - black bars on project thumbnails
 - adjust mobile font size
 
@@ -17,8 +12,5 @@ Nitpicks:
 - larger menu font
 - different font style
 - larger body font
-- Figure out how to change theme colors on the fly
-- paralax scrolling??
 - manually edit thumbnail images to fit zoom properly
 - order the projects by importance
-- display tags underneath project thumbnails
