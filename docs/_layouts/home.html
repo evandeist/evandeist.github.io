@@ -1,0 +1,14 @@
+---
+hide_hero: true
+---
+<html
+dir="{{ site.direction | default: 'ltr' }}"
+lang="{{ site.lang | default: 'en' }}"
+{% if site.fixed_navbar %}class="has-navbar-fixed-{{ site.fixed_navbar }}"{% endif %}>
+
+{% include head.html %}
+{% include header.html %}
+
+{{ content }}
+
+</html>

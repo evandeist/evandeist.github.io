@@ -1,4 +1,4 @@
-let gridSize = 45; // Size of each square in the grid
+let gridSize = 38; // Size of each square in the grid
 let rows, cols;
 let xOffset, yOffset;
 let cells;
@@ -7,7 +7,7 @@ let cellVals;
 const aliveVal = 1;
 const thriveRate = 0.02;
 const decayRate = 0.13;
-const generationTime = 300;
+const generationTime = 130;
 
 function setup() {
   colorMode(RGB);
@@ -55,8 +55,8 @@ function spawnCell(x, y){
 }
 
 function getCellColor(val){
-  const deadColor = color(20, 20, 60);
-  const aliveColor = color(140, 160, 180);
+  const deadColor = color(30, 25, 60);
+  const aliveColor = color(100, 100, 120);
   return lerpColor(deadColor, aliveColor, val);
 }
 
@@ -154,7 +154,7 @@ function drawCell(x, y, col){
   let posX = xOffset + x * gridSize;
   let posY = yOffset + y * gridSize;
   fill(col);
-  stroke(190);
+  stroke(color(40, 35, 70));
   strokeWeight(0.3);
   rect(posX, posY, gridSize, gridSize, 1);
 }

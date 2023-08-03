@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
-hero_image: /assets/images/hero/contact_hero.JPG
+hero_image: /assets/images/hero/contact_hero_2.JPG
 
 # todo: update phone
 # make text blue on highlight

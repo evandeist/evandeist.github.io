@@ -1,33 +1,48 @@
-let gridSize = 30; // Size of each square in the grid
+let gridSize = 36; // Size of each square in the grid
 let rows, cols;
 let xOffset, yOffset;
 let cells;
+let didResize = false;
+let touchActive = false;
 
-const aliveVal = 0.2;
-const thriveRate = 0.04;
-const decayRate = 0.04;
-const generationTime = 100;
+const aliveVal = 0.5;
+const thriveRate = 0.05;
+const decayRate = 0.07;
+const generationTime = 110;
+
 
 function setup() {
   colorMode(RGB);
   createCanvas(windowWidth, windowHeight);
   noFill();
-  stroke(190);
-  strokeWeight(0.2);
+  stroke(120);
+  strokeWeight(0.5);
   frameRate(60);
   setInterval(updateCells, generationTime);
   initGrid();
 }
 
 function windowResized() {
+  didResize = true;
+}
+
+function reset(){
+  cells = [];
+  cols = 0;
+  rows = 0;
   resizeCanvas(windowWidth, windowHeight);
   initGrid();
 }
 
 function draw() {
-  
-  cellPen();
-  drawGrid();
+  if (cells != []){
+    cellPen();
+    drawGrid();
+  }
+  if (didResize){
+    reset();
+    didResize = false;
+  }
 }
 
 function mouseCellX(){
@@ -40,14 +55,21 @@ function mouseCellY(){
 
 function cellPen(){
   let x = mouseCellX();
-  let y =mouseCellY();
-  
-  cells[x][y] = aliveVal;
+  let y = mouseCellY();
+  if (x >= 0 && x < cols && y >=0 && y < rows){
+    spawnCell(x, y);
+  }
+}
+
+function spawnCell(x, y){
+  if (!(cells[x][y] === undefined)){
+    cells[x][y] = aliveVal;
+  }
 }
 
 function getCellColor(val){
-  const deadColor = color(50, 20, 60);
-  const aliveColor = color(250, 250, 250);
+  const deadColor = color(30, 25, 60);
+  const aliveColor = color(100, 100, 120);
   return lerpColor(deadColor, aliveColor, val);
 }
 
@@ -59,11 +81,13 @@ function initGrid() {
   cells = [...Array(cols)].map(e => Array(rows).fill(0.0));
   
   // test walker
+  /*
   cells[20][20] = 1.0;
   cells[21][20] = 1.0;
   cells[22][20] = 1.0;
   cells[20][21] = 1.0;
   cells[21][22] = 1.0;
+  */
 
   // Calculate the offset to center the grid
   xOffset = (width - cols * gridSize) / 2;
