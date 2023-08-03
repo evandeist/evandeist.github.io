@@ -46,8 +46,19 @@
     justify-content: center;
   }
 
+  .resume-container{
+    display: flex;
+    align-items: center;
+  }
+
+  .resume-title{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0px;
+  }
+
   .pdf-button {
-    top:-10px;
+    margin-left: auto;
     text-align: center;
     align-self: center;
   }
@@ -120,6 +131,7 @@
     height: 1px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #ccc, #ccc);
+    padding: 1px;
   }
 
   .icon-list-container{
@@ -237,12 +249,35 @@
       transition: all 0.3s ease-in-out;
   }
 
+  .navbar-item:hover {
+    background-color: #e4e0fb;
+  }
+
+  .profile-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+  }
+
   @media (max-width: 800px) {
+
+    .resume-container{
+      display: block;
+    }
+
+    .pdf-button {
+      margin-left: none;
+      text-align: left;
+      align-self: left;
+    }
 
     .is-bg-zoom {
       background-position: center;
       background-size: 130%;
-  }
+    }
 
     .column-list {
       flex-direction: column; /* Display items in a single column */
@@ -297,15 +332,22 @@
     }
   }
 
+  #canvas-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
 
 
 // override bulma vars here
+$primary: #343865;
+$primary-dark: #e4e4e4;
+$background: #423c57;
+$body-background-color: #393b56;
 
-$primary: #11132f;
-$background: #1f184d;
-$body-background-color: #1b2251;
 
-$scheme-main: #202020;
+$scheme-main: #404156;
 $body-color: #ffffff;
 $scheme-main-bis: $primary;
 

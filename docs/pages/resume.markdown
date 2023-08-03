@@ -5,7 +5,6 @@ permalink: /resume/
 hide_hero: true
 
 # todo: mobile support
-# todo: make column lists centered but do not center the text inside of them
 # todo: heading sizes
 ---
 
@@ -13,15 +12,13 @@ hide_hero: true
 
 <body>
 
-<h1>
-    Resume
-</h1>
-
-<div class="pdf-button is-right">
-    <a class="button" href="/docs/assets/documents/Evan Deist Resume 2023.pdf" download>Download pdf version</a>
-</div>
-
 <div style="padding:28px;">
+<div class="resume-container">
+    <h1 class="resume-title">Resume</h1>
+    <div class="pdf-button">
+        <a class="button" href="/docs/assets/documents/Evan Deist Resume 2023.pdf" download>Download PDF Version</a>
+    </div>
+</div>
 <hr>
 <h1 class="title resume-h1">Education</h1>
 <section class="resume-section">

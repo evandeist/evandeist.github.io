@@ -1,0 +1,40 @@
+---
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+hero_height: is-large
+hide_hero: true
+hero_image: /assets/images/hero/home_hero_2.jpg
+
+# Todo: profile image
+# Todo: right align text
+# Todo: see projects button
+# Todo: processing js background?
+# Todo: eye-catching colors
+---
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+
+<style>
+  #canvas-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  #greeting-card{
+    position: absolute;
+    z-index: 2;
+    top:300px;
+  }
+</style>
+
+
+  <div id="canvas-container">
+    <script src="life_v2.js"></script>
+  </div>
+
+  <div id="greeting-card">
+    <!-- Your other HTML elements can go here -->
+    <h1>Hello, this is on top of the p5.js sketch!</h1>
+    <p>More content here...</p>
+  </div>
