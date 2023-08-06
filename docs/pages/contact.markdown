@@ -2,10 +2,11 @@
 layout: page
 title: Contact
 permalink: /contact/
-hero_image: /assets/images/hero/contact_hero_2.JPG
+hero_image: /assets/images/hero/contact_hero_2.jpg
 
 # todo: update phone
 # make text blue on highlight
+# scale text size
 
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
