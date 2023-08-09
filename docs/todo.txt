@@ -1,16 +1,19 @@
 Tasks:
-- Waterfall ***
-- Gyrofighter Video ***
+- Waterfall
+- Gyrofighter Video
+- write blurb for home page
 - laser doodle video
 
 Fixes:   
+- home page saling issue
 - black bars on project thumbnails
-- adjust mobile font size
+    - project titles that are too long get split across 2 lines. 
+    - make project titles move up instead of extending the card
+- fix contact page on mobile (query for portrait/landsacpe?)
+
 
 Nitpicks:
-- space out navbar options
-- larger menu font
 - different font style
 - larger body font
-- manually edit thumbnail images to fit zoom properly
 - order the projects by importance
+- home page p5js is too distracting?

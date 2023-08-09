@@ -12,7 +12,7 @@ hide_hero: true
 
 <body>
 
-<div style="padding:28px;">
+<div class="resume-div">
 <div class="resume-container">
     <h1 class="resume-title">Resume</h1>
     <div class="pdf-button">

@@ -249,8 +249,8 @@
       transition: all 0.3s ease-in-out;
   }
 
-  .navbar-item:hover {
-    background-color: #e4e0fb;
+  .resume-div{
+    padding:28px;
   }
 
   @media (max-width: 800px) {
@@ -276,6 +276,18 @@
 
     .column-list li {
       width: 100%; /* Set full width for single column */
+    }
+
+    .section.section{
+      padding:5px;
+    }
+
+    .resume-div{
+      padding:5px;
+    }
+
+    .section.resume-section{
+      padding:5px;
     }
 
     .resume-section h2 {
@@ -323,10 +335,6 @@
     }
   }
 
-  .navbar-item {
-    color: #7969c2; /* Replace "your-desired-color" with the color you want */
-  }
-
 // override bulma vars here
 $primary: #343865;
 $primary-dark: #e4e4e4;
@@ -346,5 +354,29 @@ $link: #66a3e9;
 $link-hover: #5eaed3;
 $link-visited: #7969c2;
 
+
+/* Target the navbar items */
+.navbar .navbar-item {
+  font-size: 1.2rem;
+}
+
+a.custom-navbar-item{
+  
+  font-size: 1.5rem;
+  background-color: $primary;
+  color: $text;
+  padding: 1rem;
+  transition: background-color 0.2s, color 0.2s;
+
+  &:hover {
+    background-color: $text !important;
+    color: $primary !important;
+  }
+
+  &.is-active {
+    background-color: $text !important;
+    color: $primary !important;
+  }
+}
 // Import Main CSS file from theme
 @import "main";
