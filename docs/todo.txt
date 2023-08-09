@@ -5,7 +5,6 @@ Tasks:
 - laser doodle video
 
 Fixes:   
-- home page saling issue
 - black bars on project thumbnails
     - project titles that are too long get split across 2 lines. 
     - make project titles move up instead of extending the card
@@ -14,6 +13,7 @@ Fixes:
 
 Nitpicks:
 - different font style
+- contact icons too big on mobile (use clamp)
 - larger body font
 - order the projects by importance
 - home page p5js is too distracting?

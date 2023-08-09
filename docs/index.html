@@ -2,30 +2,26 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-
-# Todo: profile image
-# Todo: right align text
-# Todo: see projects button
-# Todo: processing js background?
-# Todo: eye-catching colors
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
 
 <style>
   #canvas-container {
-    position: absolute;
-    width:10%;
-    height:50vh;
+    position: fixed;
+    /*width:10%;*/
+    /*height:50vh;*/
     z-index: 1;
   }
   .greeting-card{
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
-    max-width: 53%;
-    height: auto;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     padding: 10px;
+
+    width: clamp(300px, 65%, 700px);
+    /*height: auto;clamp(250px, 50%, 450px);*/
     background-color: rgba(54, 50, 91, 0.753);
     backdrop-filter: blur(14px);
     border-radius: 10px;
@@ -35,33 +31,38 @@ layout: home
     position: relative;
     transform: translate(0%, 0%);
     font-weight: bold;
-    color: white;
-    font-size: 4.2vw;
-    margin: -3%;
+    /*color: white;*/
+    /*font-size: 70%;*/
+    font-size: clamp(25px, 5.3vw, 60px);
+    margin-top: 2%;
+    margin-bottom: -4%;
+    margin-right: 3%;
+    overflow: hidden;
   }
   .greeting-card p{
-    font-size: 1.2vw;
-    margin-top: 2%;
+    margin-top: 5%;
+    font-size: clamp(15px, 1.5vw, 25px);
+    padding-left: 4%;
   }
   .greeting-card-button{
     float: right;
+    /*position: absolute;*/
     transform: translate(-10%, 60%);
     font-weight: bold;
-    background-color: rgb(75, 93, 141);
+    background-color: #271f48;
     color: rgb(196, 196, 196);
-    font-size: 2.7vw;
-    padding: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
-    border-radius: 1.3vmin;
-    border-color: rgb(51, 74, 139);
-    border-style: thin;
+    font-size: clamp(25px, 3.9vw, 50px);
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 1.1vmin;
+    border-color: rgb(194, 194, 194);
+    border-style: solid;
+    border-width: thin;
   }
   .profile-image{
-    /*position: relative;*/
     float: left;
     transform: translate(-25%, -10%);
-    width: 40%;
+    width: clamp(20px, 40%, 350px);
     height: auto;
     border-radius: 1%;
     border-color: rgb(194, 194, 194);
@@ -69,19 +70,25 @@ layout: home
     border-width: thin;
     margin: 0%;
   }
+  html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+/*
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+*/
 
 </style>
 
-<section id="canvas-container">
+<section id="canvas-container" style="overflow: hidden;">
   <script src="life_v2.js"></script>
 </section>
 
 <div class = "greeting-card">
-
   <img class="profile-image" src="assets/images/other/profile_1.jpg" alt="Profile Picture">
-
   <h1>Hello! I'm</h1>
-  <h1><span>Evan Deist</span></h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <h1><span style="color:#66a3e9">Evan Deist</span></h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
   <a class="greeting-card-button" href="/projects">See Projects</button>
 <div>
