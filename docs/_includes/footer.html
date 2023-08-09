@@ -1,24 +1,23 @@
-<!--
+<style>
+    .footer-link{
+        color: #cfcfcf;
+        transform: translate(0%, 10%);
+        text-decoration: underline;
+    }
 
-
+</style>
 <footer class="footer">
     <div class="container">
-        
-        {% if site.footer_menu %}
+        {% if site.data.navigation %}
         <div class="columns is-multiline">
-            {% for item in site.data[site.footer_menu] %}
+            {% for item in site.data.navigation %}
             <div class="column has-text-centered">
                 <div>
-                    <a href="{{ item.link | relative_url }}" class="link">{{ item.name }}</a>
+                    <a href="{{ item.link | relative_url }}" class="footer-link">{{ item.name }}</a>
                 </div>
             </div>
             {% endfor %}
         </div>
         {% endif %}
-
-        <div class="content is-small has-text-centered">
-            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
-        </div>
     </div>
 </footer>
--->

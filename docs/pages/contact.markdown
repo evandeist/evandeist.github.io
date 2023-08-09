@@ -4,9 +4,7 @@ title: Contact
 permalink: /contact/
 hero_image: /assets/images/hero/contact_hero_2.jpg
 
-# todo: update phone
-# make text blue on highlight
-# scale text size
+# todo: add discord?
 
 ---
 
@@ -21,7 +19,7 @@ hero_image: /assets/images/hero/contact_hero_2.jpg
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
-<div class="tile is-ancestor">
+<div class="tile is-ancestor" style="margin-bottom: 5%; margin-top: 2%;">
   <div class="tile is-parent is-3">
     <a href="mailto:egdeist@outlook.com" class="tile is-child box">
         <i class="fa fa-envelope" style="font-size:9.5rem"></i>
