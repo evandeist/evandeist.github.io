@@ -12,7 +12,7 @@ tags: ["Arduino", "C++"]
 # Make video smaller
 ---
 
-<div class="video-container">
+<div class="video-container" style="height:50%">
   <video controls name="media">
     <source type="video/mp4" src="/assets/videos/labyrinth.mp4">
   Your browser does not support the video tag.

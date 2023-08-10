@@ -1,9 +1,18 @@
 ---
 layout: page
 ---
+
+<style>
+    section.section{
+        max-width: 1000px;
+        margin: auto;
+    }
+
+</style>
+
 {{ content }}
 
 {% if page.github %}
     <div></div>
-    <div class="is-centered"> You can find the github repository <a href="{{ page.github }}">here</a> </div>
+    <div class="is-centered" style = "margin-top: 7%"> You can find the github repository <a href="{{ page.github }}">here</a> </div>
 {% endif %}

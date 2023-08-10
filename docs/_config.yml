@@ -34,8 +34,7 @@ remote_theme: chrisrhymes/bulma-clean-theme
 
 collections:
   projects:
-    output: true
-    permalink: /projects/:path/
+    output: false
 
 
 #plugins:
