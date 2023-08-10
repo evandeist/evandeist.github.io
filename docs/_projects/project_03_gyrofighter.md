@@ -25,5 +25,5 @@ tags: ["iOS", "Swift", "Gamedev"]
 
 An Asteroids-like game, with a twist! This mobile game requires the player to physically tilt their device to maneuver the ship. It's a simple and intuitive control scheme, but quite difficult to master! The gyro can be "recalibrated" by tapping the button in the bottom left.
 
-This app was developed in collaboration with @brysonfoye.
+This app was developed in collaboration with <a href="https://github.com/brysonfoye">Bryson Foye</a>.
 It was the final project for our handheld programming course (CMSC436), and is written in Swift.

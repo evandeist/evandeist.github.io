@@ -24,5 +24,5 @@ Fight an endless swarm of rogue machines!
 
 Robot Onslaught is a 1st-person shooter where you must think quickly in order to survive. Dash, jump, and blast your way through increasingly massive waves of enemies! Destroy as many robots as you can to rack up your score. There are 5 unique weapons to master.
 
-This game was developed in collaboration with Hammaad K (10se1ucgo).
+This game was developed in collaboration with <a href="https://github.com/10se1ucgo">Hammaad K.</a>
 It was the final project for our game programming course (CMSC425), made in Unity.
