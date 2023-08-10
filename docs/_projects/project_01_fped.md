@@ -6,7 +6,7 @@ thumbnail: /assets/images/thumbnails/fped_2x_thumb.png
 #thumbnail: /assets/images/hero/fped_hero.png
 hero_image: /assets/images/hero/fped_hero.png
 hero_darken: true
-github: https://github.com/evndeist/FireProtectionEngineering
+github: https://github.com/evandeist/FireProtectionEngineering
 hidden: false
 
 tags: ["Unity", "C#", "Maya", "Gamedev"]

@@ -4,7 +4,7 @@ title: "PAC-MAN Remake"
 permalink: /pacman/
 thumbnail: /assets/images/thumbnails/pacman_thumb.png
 hero_image: /assets/images/hero/pacman_hero.png
-github: https://github.com/evndeist/Pacman-Godot
+github: https://github.com/evandeist/Pacman-Godot
 hidden: false
 
 tags: ["godot","gdscript","gamedev"]

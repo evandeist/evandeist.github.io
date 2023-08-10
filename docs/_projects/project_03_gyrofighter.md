@@ -4,7 +4,7 @@ title: "GyroFighter"
 permalink: /gyrofighter/
 thumbnail: /assets/images/thumbnails/gyro_2x_thumb.png
 hero_image: /assets/images/hero/gyro_temp_hero.png
-github: https://github.com/evndeist/gyrofighter
+github: https://github.com/evandeist/gyrofighter
 hidden: false
 
 tags: ["iOS", "Swift", "Gamedev"]

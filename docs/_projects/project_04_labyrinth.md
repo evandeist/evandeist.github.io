@@ -4,7 +4,7 @@ title: "LED Labyrinth"
 permalink: /labyrinth/
 thumbnail: /assets/images/thumbnails/labyrinth_thumb_2.jpg
 hero_image: /assets/images/hero/labyrinth_thumb_2.jpg
-github: https://github.com/evndeist/LED-Labyrinth
+github: https://github.com/evandeist/LED-Labyrinth
 hidden: false
 
 tags: ["Arduino", "C++"]
