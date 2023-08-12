@@ -74,7 +74,7 @@ hide_hero: true
     </h2>
     <img src="/assets/images/other/inky_logo.png">
     <ul class="resume-list" style="list-style-position: inside;">
-        <li>Initiated the devlopment of an Outlook extension that displays a warning banner over suspicious mail</li>
+        <li>Initiated the development of an Outlook extension that displays a warning banner over suspicious mail</li>
         <li>Set up a testing framework in Cypress for testing new features on an internal site</li>
     </ul>
 </section>
