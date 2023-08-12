@@ -16,7 +16,7 @@ hide_hero: true
 <div class="resume-container">
     <h1 class="resume-title">Resume</h1>
     <div class="pdf-button">
-        <a class="button" href="/docs/assets/documents/Evan Deist Resume 2023.pdf" download>Download PDF Version</a>
+        <a class="button" href="/assets/documents/Evan Deist Resume 2023.pdf" download>Download PDF Version</a>
     </div>
 </div>
 <hr>
