@@ -43,7 +43,7 @@ hero_image: /assets/images/hero/contact_hero_2.jpg
     </a>
   </div>
   <div class="tile contact-tile is-parent is-3">
-    <a href="https://github.com/evndeist" class="tile is-child box">
+    <a href="https://github.com/evandeist" class="tile is-child box">
         <i class="devicon-github-original" style="font-size:7.5rem"></i>
         <p class="tile-text">Github</p>
     </a>
