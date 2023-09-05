@@ -3,7 +3,7 @@ layout: project
 title: "Light Snakes"
 permalink: /lightsnakes/
 thumbnail: /assets/images/thumbnails/light_snakes_thumb.png
-hero_image: /assets/images/hero/light_snakes_hero_2.jpg
+hero_image: /assets/images/hero/light_snakes_hero_2.JPG
 hero_darken: false
 hidden: false
 
