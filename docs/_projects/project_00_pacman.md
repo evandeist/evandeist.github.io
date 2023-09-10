@@ -21,7 +21,7 @@ tags: ["godot","gdscript","gamedev"]
 </style>
 
 <div class="game-container">
-    <iframe frameborder="0" src="https://itch.io/embed-upload/8116050?color=333333" allowfullscreen="" width="960" height="555"><a href="https://evandeist.itch.io/pac-man-remake">Play Pac Man Remake on itch.io</a></iframe>
+    <iframe frameborder="0" src="https://itch.io/embed-upload/8667877?color=333333" allowfullscreen="" width="960" height="555"><a href="https://evandeist.itch.io/pac-man-remake">Play Pac Man Remake on itch.io</a></iframe>
 </div>
 
 <div id="notice">(use the arrow keys to play)</div>
