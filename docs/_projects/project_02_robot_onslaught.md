@@ -13,11 +13,16 @@ tags: ["Unity", "Maya", "C#", "Gamedev"]
 # todo: link other creator
 
 ---
+<!-- 
 <div class="video-container">
     <video controls name="media" class=".video-container">
         <source type="video/mp4" src="/assets/videos/RO_gameplay.mp4">
         Your browser does not support the video tag.
     </video>
+</div>
+-->
+<div class="game-container">
+    <iframe frameborder="0" src="https://itch.io/embed-upload/8693910?color=534e75" allowfullscreen="" width="960" height="555"><a href="https://evandeist.itch.io/robot-onslaught">Play Robot Onslaught on itch.io</a></iframe>
 </div>
 
 Fight an endless swarm of rogue machines! 
