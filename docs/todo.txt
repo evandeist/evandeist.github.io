@@ -1,11 +1,2 @@
 Tasks:
 - update resume (web version and pdf version)
-- write blurb for home page ****
-- laser doodle video
-- revise project desc
-
-Fixes:   
-- black bars on project thumbnails?
-
-Nitpicks:
-- different font style?
