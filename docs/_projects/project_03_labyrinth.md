@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "LED Labyrinth"
+title: "Arduino Labyrinth"
 permalink: /labyrinth/
 thumbnail: /assets/images/thumbnails/labyrinth_thumb_2.jpg
 hero_image: /assets/images/hero/labyrinth_thumb_2.jpg

@@ -1,11 +1,7 @@
 Tasks:
-- order the projects by importance
-- Waterfall
-- Gyrofighter Video
+- update resume (web version and pdf version)
 - write blurb for home page ****
 - laser doodle video
-- google analytics
-- link partners
 - revise project desc
 
 Fixes:   
@@ -13,4 +9,3 @@ Fixes:
 
 Nitpicks:
 - different font style?
-- home page p5js is too distracting?
