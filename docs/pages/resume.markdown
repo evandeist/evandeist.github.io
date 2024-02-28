@@ -16,7 +16,7 @@ hide_hero: true
 <div class="resume-container">
     <h1 class="resume-title">Resume</h1>
     <div class="pdf-button">
-        <a class="button" href="/assets/documents/Evan Deist Resume 2023.pdf" download>Download PDF Version</a>
+        <a class="button" href="/assets/documents/Evan Deist Resume 2024.pdf" download>Download PDF Version</a>
     </div>
 </div>
 <hr>
@@ -36,7 +36,7 @@ hide_hero: true
     </ul>
     <ul class="column-list">
         <li>Algorithms</li>
-        <li>Data Structures</li>
+        <li>Advanced Data Structures</li>
         <li>Linear Algebra</li>
         <li>Mobile Development</li>
         <li>Computer Graphics</li>
@@ -48,11 +48,13 @@ hide_hero: true
 </section>
 <hr>
 
+
 <h1 class="title resume-h1">Experience</h1>
+
 <section class="resume-section">
     <!-- experience section 1 -->
     <h2 class="subtitle">
-        <b>Unity Developer</b>
+        <b>Simulation Developer</b>
     </h2>
     <h2 class="subtitle">
         Fire Protection Engineering Dept. <br> College Park, MD <br> 2022
