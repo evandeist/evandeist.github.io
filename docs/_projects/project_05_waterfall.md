@@ -2,8 +2,8 @@
 layout: project
 title: "LED Waterfall"
 permalink: /waterfall/
-thumbnail: /assets/images/thumbnails/waterfall_thumb.jpg
-hero_image: /assets/images/thumbnails/waterfall_thumb.jpg
+thumbnail: /assets/images/thumbnails/waterfall_thumb.JPG
+hero_image: /assets/images/hero/waterfall_hero.JPG
 hidden: false
 github: https://github.com/evandeist/LED-waterfall
 
