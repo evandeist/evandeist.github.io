@@ -28,7 +28,7 @@ tags: ["Arduino", "C++"]
 
 <div class="video-container" style="height:50%">
   <video controls name="media">
-    <source type="video/mp4" src="/assets/videos/waterfall_placeholder.mp4">
+    <source type="video/mp4" src="/assets/videos/waterfall2.mp4">
         Your browser does not support the video tag.
   </video>
 </div>
